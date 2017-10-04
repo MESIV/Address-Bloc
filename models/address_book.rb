@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 require_relative 'entry'
 
 class AddressBook
@@ -20,7 +19,7 @@ class AddressBook
         entries.insert(index, Entry.new(name, phone_number, email))
     end
 end
-=======
+
  require_relative 'entry'
  
    class AddressBook
@@ -41,4 +40,3 @@ end
      entries.insert(index, Entry.new(name, phone_number, email))
    end
  end
->>>>>>> checkpoint-4-models

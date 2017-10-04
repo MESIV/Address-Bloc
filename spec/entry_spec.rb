@@ -1,7 +1,6 @@
 require_relative '../models/entry'
 
 RSpec.describe Entry do
-<<<<<<< HEAD
     describe "atributes" do
         let(:entry) { Entry.new('Ada Lovelace', '010.012.1815', 'augusta.king@lovelace.com') }
         
@@ -38,7 +37,6 @@ RSpec.describe Entry do
         end
     end
 end 
-=======
     describe "attributes" do
     let(:entry) { Entry.new('Ada Lovelace', '010.012.1815', 'augusta.king@lovelace.com') }
 
@@ -75,4 +73,4 @@ end
      end
    end
  end
->>>>>>> checkpoint-4-models
+

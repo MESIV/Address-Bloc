@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 require_relative '../models/address_book'
 
 RSpec.describe AddressBook do 
@@ -19,7 +18,6 @@ RSpec.describe AddressBook do
         end
     end
     
-=======
  require_relative '../models/address_book'
 
  RSpec.describe AddressBook do
@@ -40,7 +38,6 @@ RSpec.describe AddressBook do
       end
     end
 
->>>>>>> checkpoint-4-models
    describe "#add_entry" do
      it "adds only one entry to the address book" do
        book = AddressBook.new

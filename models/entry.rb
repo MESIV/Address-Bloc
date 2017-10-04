@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Entry
     attr_accessor :name, :phone_number, :email
     
@@ -12,7 +11,7 @@ class Entry
         "Name: #{name}\nPhone Number: #{phone_number}\nEmail: #{email}"
     end
 end
-=======
+
  class Entry
    attr_accessor :name, :phone_number, :email
 
@@ -26,4 +25,3 @@ end
      "Name: #{name}\nPhone Number: #{phone_number}\nEmail: #{email}"
    end
  end
->>>>>>> checkpoint-4-models
