@@ -124,4 +124,12 @@ RSpec.describe AddressBook do
             expect(entry).to be_nil
         end
     end
+    
+    describe "#pulverize" do
+        it "deletes all contact info" do
+        book.add_entry("Evan", "281-330-8004", "fakemail@geemail.com")
+        book.pulverize
+        expect(book.entries.size)to eq(0)
+        end
+    end
  end
